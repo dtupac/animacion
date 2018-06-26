@@ -1,5 +1,3 @@
-
-
 function dibujarFlecha() {
     var colors = ["#000000", "#ffffff", "#ffcc00"];
     var ctx = document.getElementById("canvas").getContext("2d");
@@ -38,5 +36,4 @@ function animarFlecha() {
         ctx.setTransform(1,0,0,1,100,i);
         dibujarFlecha(ctx.rotate(-Math.PI/2));
     }
-
 }
